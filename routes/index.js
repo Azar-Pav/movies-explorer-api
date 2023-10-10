@@ -20,7 +20,7 @@ router.post('/signup', checkCreateUser, createUser);
 router.post('/signout', logout);
 router.use(auth);
 router.use('/users', userRouter);
-router.use('/cards', movieRouter);
+router.use('/movies', movieRouter);
 router.use('*', (req, res, next) => {
   next(new NotFoundError('Неправильный путь'));
 });
