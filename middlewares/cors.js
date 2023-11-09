@@ -3,8 +3,8 @@ const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
 const allowedCors = [
   'https://api.movies-explorer.azar.nomoredomainsrocks.ru',
   'http://api.movies-explorer.azar.nomoredomainsrocks.ru',
-  'https://movies-explorer.azar.nomoredomainsrocks.ru',
-  'http://movies-explorer.azar.nomoredomainsrocks.ru',
+  'https://movies-explorer.azar.nomoredomainsmonster.ru',
+  'http://movies-explorer.azar.nomoredomainsmonster.ru',
   'https://localhost:3000',
   'http://localhost:3000',
 ];
