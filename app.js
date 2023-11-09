@@ -36,7 +36,7 @@ app.use(cookieParser());
 app.use(limiter);
 
 app.use(requestLogger);
-app.use(router);
+app.use('/api', router);
 app.use(errorLogger);
 
 app.use(errors());
